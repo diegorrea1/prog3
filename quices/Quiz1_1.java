@@ -9,6 +9,13 @@ Scanner sc=new Scanner(System.in);
   if (i % 3==0 && i%5==0){
   System.out.println("Fizzbuzz");
   }
+    else if(i%3==0){
+    System.out.prinln("fizz");
+    }
+    else if(i%5==0){
+      System.out.println("buzz");
+    }
+   
   }
 }
 }
