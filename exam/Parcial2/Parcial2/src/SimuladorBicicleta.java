@@ -76,53 +76,17 @@ public class SimuladorBicicleta extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void ModalidadActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ModalidadActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_ModalidadActionPerformed
-
-    /**
-     * @param args the command line arguments
-     */
+  
     public static void main(String args[]) {
         
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new SimuladorBicicleta().setVisible(true);
             }
-        });
-    }
-
-    
-    private javax.swing.JComboBox<String> Modalidad;
-    private javax.swing.JLabel click;
-    
-
-private void encender(){
-    
-switch (Modalidad.getSelectedIndex()){
- if (pedal1) {
-           
-        } else {
-            pedal1Button.setText("");
-            pedal2Button.setText("Pedal 2");
-        }
-    }
-
-    private void updateIndicators() {
-        
-        speedLabel.setText("Velocidad: " + speed + " km/h");
-        System.out.println("Número de veces que se oprimen los pedales: " + pedalPressCount);
-    }
-
-    public static void main(String[] args) {
-        SwingUtilities.invokeLater(new Runnable() {
-            @Override
-            public void run() {
-                SimuladorBicicleta simulador = new SimuladorBicicleta();
-                simulador.setVisible(true);
-            }
-        
-    
-
+        };
+                }
 }
-}
+
+
+    
+    
